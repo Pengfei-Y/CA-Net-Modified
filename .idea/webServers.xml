@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="308cda72-2f14-4896-84ff-23d482c159f4" name="hz-t3.matpool.com" url="http://hz-t3.matpool.com">
+        <fileTransfer rootFolder="/mnt/code" accessType="SFTP" host="hz-t3.matpool.com" port="29700" sshConfigId="81a5bb90-731f-4dcd-a92f-e861891071ed" sshConfig="root@hz-t3.matpool.com:29700 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
