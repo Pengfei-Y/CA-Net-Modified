@@ -1,4 +1,4 @@
-##本毕业设计基于CA-Net进行改进，以下为原CA-Net的README.md文件原文，包括原论文链接，模型复现方法，所需要的软硬件条件等
+本毕业设计基于CA-Net进行改进，以下为原CA-Net的README.md文件原文，包括原论文链接，模型复现方法，所需要的软硬件条件等。CA-Net模型的源码链接在论文中有所体现，本毕设复用了CA-Net部分源码
 # CA-Net: Comprehensive Attention Convolutional Neural Networks for Explainable Medical Image Segmentation
 This repository provides the code for "CA-Net: Comprehensive attention Convolutional Neural Networks for Explainable Medical Image Segmentation". Our work now is available on [Arxiv][paper_link]. Our work is accepted by [TMI][tmi_link].
 
@@ -51,11 +51,7 @@ Our experimental results are shown in the table:
 ```
 python show_fused_heatmap.py
 ```
-Visualzation of spatial attention weight map:
-![refinement](./pictures/spatial_atten_weight.png)
 
-Visualzation of scale attention weight map:
-![refinement](./pictures/scale_atten_weight.png)
 ## Citation
 If you find our work is helpful for your research, please consider to cite:
 ```
