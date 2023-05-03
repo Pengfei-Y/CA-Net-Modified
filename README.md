@@ -1,19 +1,13 @@
-## CA-Net: Comprehensive Attention Convolutional Neural Networks for Explainable Medical Image Segmentation
+##本毕业设计基于CA-Net进行改进，以下为原CA-Net的README.md文件原文，包括原论文链接，模型复现方法，所需要的软硬件条件等
+# CA-Net: Comprehensive Attention Convolutional Neural Networks for Explainable Medical Image Segmentation
 This repository provides the code for "CA-Net: Comprehensive attention Convolutional Neural Networks for Explainable Medical Image Segmentation". Our work now is available on [Arxiv][paper_link]. Our work is accepted by [TMI][tmi_link].
 
 [paper_link]:https://arxiv.org/pdf/2009.10549.pdf
 
 [tmi_link]:https://ieeexplore.ieee.org/document/9246575
 
-![mg_net](./pictures/canet_framework.png)
-Fig. 1. Structure of CA-Net.
 
-![uncertainty](./pictures/skin_results.png)
-Fig. 2. Skin lesion segmentation.
 
-![refinement](./pictures/fetal_mri_results.png)
-
-Fig. 3. Placenta and fetal brain segmentation.
 
 ### Requirementss
 Some important required packages include:
@@ -77,5 +71,4 @@ If you find our work is helpful for your research, please consider to cite:
 Part of the code is revised from [Attention-Gate-Networks][AG].
 
 [AG]:https://github.com/ozan-oktay/Attention-Gated-Networks
-# YZU-Capstone
-# YZU-Capstone
+
